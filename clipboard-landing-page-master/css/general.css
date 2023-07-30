@@ -13,7 +13,7 @@
 
   /* ### Primary */
 
-  --strong-cyan: hsl(171, 66%, 44%);
+  --strong-cyan: #26baa4;
   --light-blue: hsl(233, 100%, 69%);
 
   /* ### Neutral */
@@ -67,4 +67,13 @@ p {
 }
 
 .btn {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 32px;
+  border: none;
+  font-family: inherit;
+  color: #eee;
+
+  transition: all 0.3s;
 }
