@@ -24,20 +24,24 @@
     <title>Clipboard landing page | Frontend Mentor</title>
   </head>
   <body>
-    <header>
-      <h1>A history of everything you copy</h1>
+    <header class="header">
+      <div class="container">
+        <img class="logo" src="images/logo.svg" alt="company logo" />
+        <h1>A history of everything you copy</h1>
 
-      <p class="header-paragraph">
-        Clipboard allows you to track and organize everything you copy.
-        Instantly access your clipboard on all your devices.
-      </p>
-
-      <button class="btn btn--downoad">Download for iOS</button>
-      <button class="btn btn--downoad">Download for Mac</button>
+        <p class="header-paragraph">
+          Clipboard allows you to track and organize everything you copy.
+          Instantly access your clipboard on all your devices.
+        </p>
+        <div class="btn-container">
+          <button class="btn btn--download">Download for iOS</button>
+          <button class="btn btn--download">Download for Mac</button>
+        </div>
+      </div>
     </header>
     <main>
       <section class="snippets-section">
-        <div class="snippet-heading-box">
+        <div class="snippet-heading-box container">
           <h2 class="heading-secondary">Keep track of your snippets</h2>
           <p class="heading-secondary--description">
             Clipboard instantly stores any item you copy in the cloud, meaning
