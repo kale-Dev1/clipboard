@@ -18,6 +18,7 @@
   background-image: url("../images/bg-header-desktop.png");
   background-repeat: no-repeat;
   background-size: contain;
+  background-color: bisque;
 }
 .header .logo {
   height: 9.6rem;
@@ -26,4 +27,27 @@
 .header-paragraph {
   font-size: 1.6rem;
   margin-bottom: 4.2rem;
+}
+
+/* Buttons */
+
+.btn-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.btn-container .btn:nth-child(1) {
+  background-color: var(--strong-cyan);
+  box-shadow: 0 5px 5px var(--strong-cyan);
+}
+.btn-container .btn:nth-child(2) {
+  background-color: var(--light-blue);
+  box-shadow: 0 5px 5px var(--light-blue);
+}
+
+/* Change bg image to cover to stop it from cutting off */
+@media (min-width: 1750px) {
+  .header {
+    background-size: cover;
+  }
 }
