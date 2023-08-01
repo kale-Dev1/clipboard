@@ -18,12 +18,16 @@
   background-image: url("../images/bg-header-desktop.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: bisque;
+  margin-bottom: 3.2rem;
 }
 .header .logo {
   height: 9.6rem;
   margin-bottom: 4.8rem;
 }
+h1 {
+  margin-bottom: 1.2rem;
+}
+
 .header-paragraph {
   font-size: 1.6rem;
   margin-bottom: 4.2rem;
@@ -50,4 +54,159 @@
   .header {
     background-size: cover;
   }
+}
+
+/**************************/
+/* SNIPPETS SECTION */
+/**************************/
+
+.snippets-section {
+  margin: 0 auto;
+}
+
+.snippet-info {
+  display: flex;
+  justify-content: center;
+  max-width: 120rem;
+
+  margin: 0 auto;
+}
+
+.snippet-image {
+  padding-right: 9.6rem;
+}
+
+.snippet-image img {
+  height: 50rem;
+}
+
+.snippet-info-text-test {
+  width: 50%;
+  /* background-color: burlywood; */
+}
+
+.snippet-info-text {
+  padding: 6.4rem 0;
+  max-width: 33rem;
+  flex: 2 0 0;
+  /* background-color: brown; */
+}
+
+/**************************/
+/* ACCESS SECTION */
+/**************************/
+.access-img {
+  width: fit-content;
+  margin: 0 auto;
+}
+.access-img img {
+  height: 45rem;
+}
+
+/**************************/
+/* WORKFLOW SECTION */
+/**************************/
+.workflow-header {
+  padding-top: 4.8rem;
+}
+
+.workflow-info-container {
+  display: flex;
+  gap: 2rem;
+  max-width: fit-content;
+  margin: 0 auto;
+}
+
+.workflow-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 33rem;
+  text-align: center;
+}
+
+.workflow-items img {
+  height: 2.4rem;
+  margin-bottom: 3.2rem;
+}
+
+/**************************/
+/* COMPANY LOGOS SECTION */
+/**************************/
+
+.company-logos-section {
+  margin: 3.6rem 0;
+}
+.logos {
+  margin: 0 auto;
+  max-width: 120rem;
+  padding: 0 6.4rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 45px;
+}
+.logos img {
+  height: 4.2rem;
+}
+
+/**************************/
+/* CTA SECTION */
+/**************************/
+.cta .container {
+  padding-top: 6.4rem;
+}
+
+/**************************/
+/* CTA SECTION */
+/**************************/
+.cta {
+  margin-bottom: 12rem;
+}
+
+/**************************/
+/* FOOTER SECTION */
+/**************************/
+.footer {
+  background-color: #eee;
+}
+.footer-box {
+  margin: 0 auto;
+  display: flex;
+  padding: 6rem 4.8rem;
+  justify-content: space-between;
+  max-width: 120rem;
+}
+
+.footer-logo img {
+  height: 5rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  display: inline-block;
+  color: var(--dark-grayish-blue);
+  text-decoration: none;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.footer-link-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.social-icons {
+  margin: 0;
 }
