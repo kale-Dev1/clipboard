@@ -36,16 +36,15 @@ html {
 
 body {
   font-family: "Bai Jamjuree", sans-serif;
-  color: #555;
+  color: var(--dark-grayish-blue);
   font-weight: 400;
   line-height: 1;
   font-size: 1.8rem;
 }
 .container {
   max-width: 70rem;
-  padding: 9.6rem 4.8rem 2.4rem 4.8rem;
+  padding: 9.6rem 4.8rem 0 4.8rem;
   margin: 0 auto;
-
   text-align: center;
 }
 
@@ -54,9 +53,16 @@ body {
   letter-spacing: -1px;
   margin-bottom: 1.6rem;
 }
+.heading-secondary--description {
+  margin-bottom: 6.4rem;
+}
 
 .heading-tertiary {
   margin-bottom: 1.2rem;
+}
+
+.heading-tertiary--description {
+  margin-bottom: 4.8rem;
 }
 
 p {
@@ -69,7 +75,7 @@ p {
 .btn {
   font-size: 1.2rem;
   font-weight: 600;
-  padding: 1.6rem 3.2rem;
+  padding: 1.6rem 4.2rem;
   border-radius: 32px;
   border: none;
   font-family: inherit;
