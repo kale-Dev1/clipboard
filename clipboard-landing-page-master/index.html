@@ -21,18 +21,20 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
     <title>Clipboard landing page | Frontend Mentor</title>
   </head>
   <body>
     <header class="header">
       <div class="container">
         <img class="logo" src="images/logo.svg" alt="company logo" />
-        <h1>A history of everything you copy</h1>
-
-        <p class="header-paragraph">
-          Clipboard allows you to track and organize everything you copy.
-          Instantly access your clipboard on all your devices.
-        </p>
+        <div class="header-text">
+          <h1>A history of everything you copy</h1>
+          <p class="header-paragraph">
+            Clipboard allows you to track and organize everything you copy.
+            Instantly access your clipboard on all your devices.
+          </p>
+        </div>
         <div class="btn-container">
           <button class="btn btn--download">Download for iOS</button>
           <button class="btn btn--download">Download for Mac</button>
@@ -53,7 +55,11 @@
           </div>
           <div class="snippet-info">
             <div class="snippet-image">
-              <img src="images/image-computer.png" alt="computer image" />
+              <img
+                class="device-img"
+                src="images/image-computer.png"
+                alt="computer image"
+              />
             </div>
             <div class="snippet-info-text-test">
               <div class="snippet-info-text">
@@ -86,7 +92,11 @@
           </p>
         </div>
         <div class="access-img">
-          <img src="images/image-devices.png" alt="device images" />
+          <img
+            class="device-img"
+            src="images/image-devices.png"
+            alt="device images"
+          />
         </div>
       </section>
 
