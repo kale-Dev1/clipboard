@@ -197,6 +197,11 @@ h1 {
   letter-spacing: 1px;
 }
 
+.footer-link:hover,
+.footer-link:active {
+  fill: var(--strong-cyan);
+}
+
 .footer-link-box {
   display: flex;
   flex-direction: column;
@@ -206,14 +211,22 @@ h1 {
 .social-links {
   list-style: none;
   display: flex;
-  gap: 2.4rem;
+  gap: 2rem;
 }
 
 .social-icon {
-  height: 2rem;
-  width: 2rem;
+  display: inline-block;
+  height: 2.4rem;
+  width: 2.4rem;
+  fill: #4c545c;
 }
-
+.social-icon:hover {
+  height: 3.2rem;
+  fill: #57dc23 !important;
+  color: brown;
+}
 .social-icons {
-  margin: 0;
+  background-color: bisque;
+  width: max-content;
+  margin-right: 2rem;
 }
