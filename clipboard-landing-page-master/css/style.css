@@ -216,17 +216,10 @@ h1 {
 
 .social-icon {
   display: inline-block;
-  height: 2.4rem;
-  width: 2.4rem;
+  height: 2.8rem;
+  width: 2.8rem;
   fill: #4c545c;
 }
 .social-icon:hover {
-  height: 3.2rem;
-  fill: #57dc23 !important;
-  color: brown;
-}
-.social-icons {
-  background-color: bisque;
-  width: max-content;
-  margin-right: 2rem;
+  fill: var(--strong-cyan);
 }
